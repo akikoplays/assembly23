@@ -1,0 +1,8 @@
+{
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "amiga-assembly.format.preferredCommentPosition": 40,
+  // "amiga-assembly.format.preferredInstructionPosition": 4,
+  // "amiga-assembly.format.labelToInstructionDistance": 4
+}
