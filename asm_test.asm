@@ -97,20 +97,6 @@ copybitmap:
               add.l       #40*137,a1
               bsr         CopyCPU
 
-; draw_hline:
-;               lea         screen1,a0
-;               add.l       #40*50,a0
-;               moveq       #5-1,d1
-; .loopbpls:              
-;               move.l      #40-1,d0
-; .plot:
-;               move.b      #$ff,(a0)+
-;               dbf         d0,.plot
-
-; .increaseptr:
-;               add.l       #255*40,a0
-;               dbf         d1,.loopbpls
-
 ; Activate Copper list
               lea         CUSTOM,a6
               move.l      #Copper,COP1LC(a6)
